@@ -1,0 +1,21 @@
+web.upload-path=/Desktop/pic/
+spring.mvc.static-path-pattern=/**
+spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/resources/,\
+  classpath:/static/,classpath:/public/,file:${web.upload-path}
+
+
+
+
+
+
+
+
+
+
+192.168.152.133
+
+dataDir=/usr/local/zookeeper-cluster/zookeeper-2/data
+clientPort=2182
+server.1=172.16.52.215:2881:3881
+server.2=172.16.52.215:2882:3882
+server.3=172.16.52.215:2883:3883
